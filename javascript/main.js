@@ -80,7 +80,6 @@ $(window).on('scroll', function () {
 
 $(window).on('scroll', function () {
     let btnTop = $(window).scrollTop() - 100
-    console.log(btnTop);
     if (btnTop >= 0) {
         $('.js-btn-top').css({
             bottom: 0
