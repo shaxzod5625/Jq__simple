@@ -90,6 +90,6 @@ $(window).on('scroll', function () {
         })
     }
 })
-$('.btn').click(function(){
+$('.js-btn-top').click(function(){
     $('html, body').animate({scrollTop: 0}, 1000);
 });
